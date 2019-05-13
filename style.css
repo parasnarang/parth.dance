@@ -27,9 +27,15 @@ h1 {
 }
 
 .sprite {
-  background-image: url('assets/sprites.jpg');
+  background-image: url('assets/parth_sprites.png');
   width: 100%;
   background-size: cover;
+}
+
+.sprite-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .value {

@@ -1,10 +1,12 @@
-# zuckerberg.smile
-> Control Mark Zuckerbergs smile property 
+# parth.dance
+> Control my friend Parth's dance
 
-Try it yourself here: https://terkelg.github.io/zuckerberg.smile/
+Try it yourself here: https://parasnarang.github.io/parth.dance/
 
-Remember when he tried to convince us he [was human](https://www.youtube.com/watch?v=2qGVVxaosDM)?
 
+## Forked and Modified Version of zuckerberg.smile
+
+https://terkelg.github.io/zuckerberg.smile/
 
 ## License
 

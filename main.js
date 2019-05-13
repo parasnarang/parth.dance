@@ -8,11 +8,14 @@ resize();
 window.addEventListener('resize', resize);
 
 function resize(){
-  width = centerEl.clientWidth;
-  height = width * 0.5625;
+  height = centerEl.clientWidth/2;
+  // width = centerEl.clientWidth;
+  width = height * 540/960 ;
+  // height = width * 601/338;
   spriteEl.style.height = `${height}px`;
   spriteEl.style.width = `${width}px`;
-  spriteEl.style.backgroundPositionY = `-${height*frame}px`;
+  // spriteEl.style.backgroundPositionY = `-${height*frame}px`;
+  spriteEl.style.backgroundPositionX = `-${width*frame}px`;
 }
 
 const playSound = throttle(() => {
@@ -22,8 +25,9 @@ const playSound = throttle(() => {
 
 const onSliderInput = e => {
   frame = sliderEl.value;
-  spriteEl.style.backgroundPositionY = `-${height*frame}px`;
-  valueEl.textContent = (Math.round(map(frame, 0, 19, 0, 1) * 10) / 10).toFixed(1);
+  // spriteEl.style.backgroundPositionY = `-${height*frame}px`;
+  spriteEl.style.backgroundPositionX = `-${width*frame}px`;
+  valueEl.textContent = (map(frame, 0, 30, 0, 1) * 10 / 10).toFixed(2);
   playSound();
 }
 
