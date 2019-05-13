@@ -1,5 +1,5 @@
 # parth.dance
-> Control my friend Parth's dance
+> Control my friend [Parth's](https://github.com/artpar) dance
 
 Try it yourself here: https://parasnarang.github.io/parth.dance/
 
